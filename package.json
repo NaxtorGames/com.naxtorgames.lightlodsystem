@@ -1,0 +1,14 @@
+{
+  "name": "com.naxtorgames.lightlodsystem",
+  "version": "0.0.1",
+  "displayName": "Light LOD System",
+  "description": "A Level of Detail (LOD) system for light sources that handels the quality of the light and shadows.",
+  "author": "Naxtor Games",
+  "unity": "2020.3",
+  "unityRelease": "0b5",
+  "keywords": [
+    "Light",
+    "LOD",
+    "Shadows"
+  ]
+}
