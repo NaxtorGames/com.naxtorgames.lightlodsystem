@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc48413902385949b05578ed881525d, type: 3}
+  m_Name: Default_LightLODSettings
+  m_EditorClassIdentifier: 
+  _lodSettings:
+  - _minDistance: 0
+    IsEnabled: 1
+    ForceIsEnabledState: 1
+    LightRenderMode: 0
+    ShadowQuality: 2
+    ShadowResolution: 3
+  - _minDistance: 3
+    IsEnabled: 1
+    ForceIsEnabledState: 0
+    LightRenderMode: 0
+    ShadowQuality: 2
+    ShadowResolution: 1
+  - _minDistance: 10
+    IsEnabled: 1
+    ForceIsEnabledState: 0
+    LightRenderMode: 0
+    ShadowQuality: 1
+    ShadowResolution: 1
+  - _minDistance: 20
+    IsEnabled: 1
+    ForceIsEnabledState: 0
+    LightRenderMode: 2
+    ShadowQuality: 0
+    ShadowResolution: 0
+  - _minDistance: 25
+    IsEnabled: 0
+    ForceIsEnabledState: 1
+    LightRenderMode: 2
+    ShadowQuality: 0
+    ShadowResolution: 0
